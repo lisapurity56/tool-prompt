@@ -1,0 +1,34 @@
+## EXercise 2: simulated API call (weather EXample)
+i.The weather in Paris today is cloudy with a temperature of 18°C.
+
+Problem:
+
+Not machine-readable
+
+No consistent schema
+
+Hard to parse programmatically
+
+{
+  "location": "string",
+  "temperature_celsius": number,
+  "condition": "string"
+}
+
+{
+  "location": "Paris",
+  "temperature_celsius": 18,
+  "condition": "Cloudy"
+}
+
+{
+  "location": "Tokyo",
+  "temperature_celsius": 22,
+  "condition": "Sunny"
+}
+
+{
+  "location": "New York",
+  "temperature_celsius": 12,
+  "condition": "Rain"
+}
